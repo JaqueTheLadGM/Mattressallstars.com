@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Music & Video | The Mattress All-Stars — LoveJam FM 99.69</title>
+    <meta name="description" content="Watch and listen to The Mattress All-Stars — a North West UK funk tribute, live on stage and on record. Check out our videos, tunes, and gig listings." />
+    <link rel="canonical" href="https://the-mattress-all-stars.netlify.app/music.html" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://the-mattress-all-stars.netlify.app/music.html" />
+    <meta property="og:title" content="Music & Video | The Mattress All-Stars" />
+    <meta property="og:description" content="Watch and listen to live and recorded funk from the North West's cheekiest tribute." />
+    <meta property="og:image" content="https://the-mattress-all-stars.netlify.app/assets/logo-lovejamfm.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://the-mattress-all-stars.netlify.app/music.html" />
+    <meta property="twitter:title" content="Music & Video | The Mattress All-Stars" />
+    <meta property="twitter:description" content="Watch and listen to live and recorded funk from the North West's cheekiest tribute." />
+    <meta property="twitter:image" content="https://the-mattress-all-stars.netlify.app/assets/logo-lovejamfm.png" />
+
+    <!-- Icons -->
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="alternate icon" href="assets/favicon.ico" type="image/x-icon">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animations.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="brand" aria-label="The Mattress All-Stars home">
+                <img src="assets/logo-lovejamfm.png" width="80" height="80" alt="The Mattress All-Stars LoveJam FM 99.69 logo" class="brand-logo" loading="lazy">
+                <span class="brand-text">
+                    <strong>The Mattress All-Stars</strong>
+                    <em>LoveJam FM 99.69</em>
+                </span>
+            </a>
+            <nav class="nav" aria-label="Primary">
+                <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">
+                    <span></span><span></span><span></span>
+                    <span class="sr-only">Menu</span>
+                </button>
+                <ul id="nav-list" class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="music.html" aria-current="page">Music & Video</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a class="btn btn-small btn-gold" href="contact.html">Book the Band</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="hero hero-sub">
+            <div class="hero-bg"></div>
+            <div class="container hero-inner">
+                <h1 class="display">Music & Video</h1>
+                <p class="tagline">Live, loud, and dripping in unapologetic 70s funk energy.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="h-section">Watch Us Live</h2>
+                <div class="video-grid">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" title="Live performance video 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" title="Live performance video 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt">
+            <div class="container">
+                <h2 class="h-section">Listen on SoundCloud</h2>
+                <div class="audio-wrapper">
+                <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/YOUR_PLAYLIST_ID&color=%23c28b0f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="all-gigs" class="section">
+            <div class="container">
+                <h2 class="h-section">All Gigs</h2>
+                <p class="muted">Where to find us. Don't be late.</p>
+                <div id="gigs-list-full" class="gigs-container" aria-live="polite">
+                    <p class="gigs-fallback">Loading the LoveJam schedule...</p>
+                    <!-- Gigs will be injected here by script.js -->
+                </div>
+                <div class="gigs-cta">
+                    <a class="btn btn-gold" href="contact.html">Book Us for Your Event</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <strong>The Mattress All-Stars</strong><br>
+                <em>LoveJam FM 99.69</em><br>
+                <span class="footer-location">Manchester • Rochdale • Oldham • North West</span>
+            </div>
+            <div class="footer-contact">
+                <a class="footer-link" href="mailto:booking@themattressallstars.com">booking@themattressallstars.com</a><br>
+                <a class="footer-link" href="contact.html">Contact & Booking</a>
+            </div>
+            <div class="socials" aria-label="Social media">
+                <a href="#" aria-label="Instagram"><img src="assets/instagram.svg" alt="" width="24" height="24"></a>
+                <a href="#" aria-label="Facebook"><img src="assets/facebook.svg" alt="" width="24" height="24"></a>
+                <a href="#" aria-label="X / Twitter"><img src="assets/x-logo.svg" alt="" width="24" height="24"></a>
+            </div>
+        </div>
+        <p class="legal">&copy; <span id="year"></span> The Mattress All-Stars. Attendance may cause involuntary shoulder shimmies and suggestive eyebrow raises.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
