@@ -1,0 +1,36 @@
+[
+  {
+    "date": "2025-09-14T20:00:00+01:00",
+    "venue": "The Velvet Room",
+    "city": "Manchester",
+    "tickets": "https://example.com/tickets-velvet-room",
+    "description": "Expect basslines so deep they'll rearrange your chakras. And your furniture."
+  },
+  {
+    "date": "2025-10-03T20:00:00+01:00",
+    "venue": "Rochdale Funk Night",
+    "city": "Rochdale",
+    "tickets": "https://example.com/tickets-rochdale",
+    "description": "We're legally obligated to warn you: our trombonist has been known to cause spontaneous polyester combustion."
+  },
+  {
+    "date": "2025-10-18T19:30:00+01:00",
+    "venue": "Oldham Soul & Funk Fest",
+    "city": "Oldham",
+    "tickets": "https://example.com/tickets-oldham",
+    "description": "The only festival where the mud is 10% rain and 90% pure, unadulterated funk."
+  },
+  {
+    "date": "2025-11-01T21:00:00+00:00",
+    "venue": "Funk at The Factory",
+    "city": "Manchester",
+    "tickets": "",
+    "description": "No tickets, just vibes. Get down early before the fire marshal starts asking questions about the rhythm section."
+  },
+  {
+    "date": "2025-07-25T20:00:00+01:00",
+    "venue": "The Groove Basement (Secret Gig)",
+    "city": "Manchester",
+    "description": "A secret show so groovy, we can't even tell you where it is. But if you know, you know."
+  }
+]
